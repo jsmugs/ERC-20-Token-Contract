@@ -166,14 +166,14 @@ contract Ownable {
  * @title ERC 20 Token contract
  */
 
-contract BitcoinMoonToken is StandardToken, Ownable {
+contract ERC 20 Token is StandardToken, Ownable {
 
     uint8 public decimals = 18;
     uint public totalSupply = 50000000000 * 10 ** 18; 
     string public name = "ERC 20 Token";
     string public symbol = "ERC";
 
-    function BitcoinMoonToken() {
+    function ERC20Token() {
         balances[msg.sender] = totalSupply;
     }
 }
